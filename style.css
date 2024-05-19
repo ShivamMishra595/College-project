@@ -1,0 +1,254 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+    padding: 0;
+    margin: 0;
+}
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+.header_main{
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 15px 10px;
+}
+.header_logo img{
+    width: 50%;
+    height: auto;
+}
+.header_text ul{
+display: flex;
+gap: 30px;
+align-items: center;
+font-size: 15px;
+}
+.header_area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_text ul li a{
+    color: black;
+}
+.header_text ul li a:hover{
+    color: white;
+    background-color: rgb(210, 22, 22);
+    border-bottom: 4px cornflowerblue;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.banner_area{
+    background-image: url(https://cdn-eu.aglty.io/sunstoneuniversity/Attachments/NewItems/sage-indore-16x9_20230306105139_0.jpg);
+    height: 600px;
+    width: 100%;
+    /* background-position: cover; */
+    background-repeat: no-repeat;
+    object-fit: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-attachment: scroll;
+    padding-bottom: 50px;
+}
+.banner_heading h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin-bottom: 35px;
+    font-style: oblique;
+}
+.banner_heading p{
+    width: 90%;
+    font-size: 25px;
+    font-style: oblique;
+}
+.About_section {
+    background-color: wheat;
+    color: black;
+    padding: 25px 10px 50px 15px;
+    height: auto;
+    width: 100%;
+}
+.About_section h1 {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.About_section p{
+    
+    padding: 10px 15px 10px 15px;
+}
+.vision {
+    height: 170px;
+    width: 50%;
+    background-color: rgb(234, 43, 43);
+    color: white;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 15px 10px 40px 10px;
+}
+.vision h1{
+    font-weight: 500;
+    font-style: inherit;
+    text-align: center;
+    padding-bottom: 5px;   
+}
+.vision p{
+    padding-left: 30px;
+
+}
+.mission {
+    height: 450px;
+    width: 70%;
+    background-color: rgb(235, 160, 20);
+    border-radius: 20px;
+    color: white;
+    margin: 35px;
+    padding: 10px 5px 10px 5px;
+}
+.mission h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mission p{
+    padding-top: 10px;
+}
+.sage_Institutes {
+padding: 45px 10px 50px 30px;
+background-color: rgb(200, 18, 18);
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.sage_Institutes h1{
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sage_Institutes ul li a{
+    padding-left: 10px;
+    color: rgb(234, 156, 11);
+}
+.sage_Institutes ul li a:hover{
+    color: white;
+    border-bottom-style:ridge;
+    border-bottom-color: #fff;
+}
+.institute_img{
+    width: 70%;
+    height: 100%;
+    align-items: right;
+}
+.sage_admission{
+    width: 100%;
+    height: auto;
+    padding: 40px 10px 45px 20px;
+    background-color: rgb(244, 224, 197);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sage_admission h1{
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+.admission{
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+}
+.sage_admission ul li a{
+    color: rgb(30, 28, 28);
+}
+.sage_admission ul li a:hover{
+    background-color: rgb(247, 163, 5);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px 5px  10px;
+    font-size: 15px;
+}
+.admission_img{
+    width: 70%;
+    height: 100%;
+    align-items: right;
+}
+
+.Student_login{
+    padding: 35px 25px 70px 45px;
+    /* margin: 10px 10px 10px 5px; */
+    background-color: black;
+    color: rgb(222, 147, 8);
+}
+.Student_login h1{
+    font-weight: 500;
+    padding-bottom: 15px;
+    padding-left: 25px;
+}
+.div_login form input{
+ color: black;
+ border-radius: 6px;
+    
+}
+.div_login form button{
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgb(243, 24, 24);
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* gap: 30px; */
+    background-color: rgb(211, 8, 8);
+    padding: 25px 15px 45px 10px;
+    
+}
+
+.social li img{
+    width: 12%;
+    height: auto;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+/* .social ul{
+    display: flex;
+} */
+.bottom h3{
+    color: white;
+    font-weight: 300;
+    padding-bottom:15px;
+    font-size: 25px;
+}
+.bottom ul li a{
+    color: white;
+}
+.bottom ul li {
+    padding:5px 5px;
+      
+}
+.bottom ul li a:hover{
+    border-bottom-style:ridge;
+    border-bottom-color: #fff;
+    color: #fff;
+    opacity: 0.7;
+}
+
+
+
